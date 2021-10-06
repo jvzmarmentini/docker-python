@@ -41,7 +41,7 @@ Run the ```docker images``` to make sure it worked. You should see at least a "p
 
 2. Run the container (detached mode)
 ```sh
-docker run -d -p 80:80 python-webserver
+docker run -d -p 5000:5000 python-webserver
 ```
 
 This will run the webserver in the background. If you dont want that, simply remove the "-d"
