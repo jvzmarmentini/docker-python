@@ -44,6 +44,10 @@ Run the ```docker images``` to make sure it worked. You should see at least a "p
 docker run -d -p 5000:5000 python-webserver
 ```
 
+Obs: if you get this response:
+```docker: Error response from daemon: Ports are not available: listen tcp 0.0.0.0:80: bind: address already in use.```
+Change the port in the Dockerfile
+
 This will run the webserver in the background. If you dont want that, simply remove the "-d"
 
 3. Make a GET request
