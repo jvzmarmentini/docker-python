@@ -21,6 +21,11 @@ git clone https://github.com/jvzmarmentini/automaton-app.git
 cd docker-python
 ```
 
+3. Download image from docker hub
+```sh
+docker pull jvzmarmentini/ubuntu-python3
+```
+
 ### Usage
 
 1. Build the image from Dockerfile
