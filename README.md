@@ -32,7 +32,7 @@ or
 docker build --tag python-webserver . 
 ```
 
-Run the ```sh docker images``` to make sure it worked. You should see at least a "python3-ubuntu" image.
+Run the ```docker images``` to make sure it worked. You should see at least a "python3-ubuntu" image.
 
 2. Run the container (detached mode)
 ```sh
